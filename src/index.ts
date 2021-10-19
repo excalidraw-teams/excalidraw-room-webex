@@ -33,7 +33,7 @@ const io = socketIO(server, {
     const headers = {
       "Access-Control-Allow-Headers": "Content-Type, Authorization",
       "Access-Control-Allow-Origin":
-        (req.header && req.header.origin) || "https://excalidraw.com",
+        (req.header && req.header.origin) || "https://webex.excalidraw.com",
       "Access-Control-Allow-Credentials": true,
     };
     res.writeHead(200, headers);
